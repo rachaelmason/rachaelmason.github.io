@@ -1,0 +1,35 @@
+body
+{margin: 50px;
+  font-size: 140%;
+  line-height: 1.3;
+   font-family: arial;}
+
+   h1
+   {background-color: #51565e;
+     color: white;
+     text-align: center;
+     font-family: garamond, serif;
+   font-style: italic;
+   letter-spacing: 2px;
+  margin-bottom: 20px;
+   }
+
+   h2
+   {margin-bottom: 10px;
+   margin-top: 10px;
+   letter-spacing: 3px;
+ }
+
+ img
+ {width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+ }
+
+
+div.everything
+{width: 80%;
+margin-left:auto;
+margin-right:auto;
+max-width: 600;
+}
