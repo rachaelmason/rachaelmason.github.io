@@ -2,28 +2,40 @@ body
 {margin: 50px;
   font-size: 140%;
   line-height: 1.3;
-   font-family: arial;}
+   font-family: arial;
+ margin-top: 150px;}
 
    h1
-   {background-color: #51565e;
-     color: white;
-     text-align: center;
-     font-family: garamond, serif;
-   font-style: italic;
-   letter-spacing: 2px;
+  {background-color: rgba(54, 2, 41, 0.72);
+  color: white;
+  text-align: center;
+  font-family: "noto sans JP", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin-bottom: 20px;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 74.4%;
    }
+
+.gotoplay {
+color: white;
+text-decoration: none;
+
+}
 
    h2
    {margin-bottom: 10px;
    margin-top: 10px;
    letter-spacing: 3px;
+   font-family:
  }
 
  img
- {width: 60%;
-   margin-left: 20%;
-   margin-right: 20%;
+ {width: 100%;
+   margin: 16px 0;
+   ;
  }
 
 
@@ -32,4 +44,27 @@ div.everything
 margin-left:auto;
 margin-right:auto;
 max-width: 600;
+font-family: "noto serif JP", sans-serif;
+}
+
+.Cover
+{float: right;
+  width: 35%;
+}
+
+.intro
+{float:left;
+width:63%;
+}
+
+@@media screen and (max-width:800px) {
+
+.cover {
+    float:none;
+    width: auto;
+}
+
+.intro {
+  float:none;
+width: auto;
 }
