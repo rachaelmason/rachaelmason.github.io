@@ -1,70 +1,89 @@
-body
-{margin: 50px;
-  font-size: 140%;
+  body
+  {font-size: 140%;
   line-height: 1.3;
-   font-family: arial;
- margin-top: 150px;}
+  font-family: arial;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 80%;
+   }
 
-   h1
-  {background-color: rgba(54, 2, 41, 0.72);
-  color: white;
+  h1
+  {background-color:rgba(75, 34, 54, 0.76);
+  color: red;
   text-align: center;
-  font-family: "noto sans JP", serif;
+  font-family: "noto serif JP", serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
   padding: 10px 0px;
   position: fixed;
   top: 0;
-  width: 74.4%;
-   }
+  width: 80%;
+  }
 
-.gotoplay {
-color: white;
-text-decoration: none;
-
-}
+  .gotoplay {
+  color: white;
+  text-decoration: none;
+  }
 
    h2
-   {margin-bottom: 10px;
-   margin-top: 10px;
-   letter-spacing: 3px;
-   font-family:
- }
+  {margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-family:
+  }
 
- img
- {width: 100%;
-   margin: 16px 0;
-   ;
- }
+  img
+  {width: 100%;
+  }
 
 
-div.everything
-{width: 80%;
-margin-left:auto;
-margin-right:auto;
-max-width: 600;
-font-family: "noto serif JP", sans-serif;
-}
+  .everything
+  {font-family: "noto serif JP", sans-serif;
+  }
 
-.Cover
-{float: right;
+  .Cover
+  {float: right;
   width: 35%;
-}
+  }
 
-.intro
-{float:left;
-width:63%;
-}
+  .intro
+  {float:left;
+  width:63%;
+  }
 
-@@media screen and (max-width:800px) {
+  .instruction
+  {background-color: rgb(119, 122, 143);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  }
 
-.cover {
-    float:none;
-    width: auto;
-}
 
-.intro {
+@media screen and (max-width:900px){
+
+  body {
+  font-size: .9em;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  }
+
+  .Cover {
+  float: none;
+  width: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+
+  .intro {
   float:none;
-width: auto;
-}
+  width: auto;
+  }
+
+  .instruction {
+  font-size: .8em;
+  padding: 5px;
+  }
+  }
