@@ -288,6 +288,7 @@ audio {
 
 nav {
   position: fixed;
+  z-index: 2;
 }
 
 nav ul {
